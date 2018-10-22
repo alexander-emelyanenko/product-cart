@@ -1,0 +1,24 @@
+.categories {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.categories__column {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 860px) {
+    .categories {
+        flex-direction: column;
+    }
+    .categories__column {
+        flex: 0;
+    }
+    .categories__column--right .category {
+        margin-top: 0;
+    }
+}

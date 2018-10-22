@@ -1,0 +1,30 @@
+.category {
+    box-sizing: border-box;
+    margin: 10px;
+}
+.category__head {
+    background-color: #D4DEE0;
+    background: #4a76a8;
+    border: 1px solid #4A76A8;
+    cursor: pointer;
+    
+}
+
+.category__name {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.category__body {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: none;
+    font-size: 14px;
+}
+
+.category__body--hidden {
+    display: none;
+}

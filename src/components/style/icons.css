@@ -1,0 +1,39 @@
+.icon {
+    position: relative;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    top: 3px;
+    left: 0px;
+    margin-right: 6px;
+    background-position: center center;
+    background-size: contain;    
+}
+
+.icon-toggle {
+    background-image: url('./arrow.svg');
+    top: 2px;
+    left: 5px;
+    transform: rotate(180deg);
+}
+
+.icon-toggle--closed {
+    transform: rotate(0deg);
+}
+
+.icon-delete {
+    background-image: url('./rubbish-bin.svg');
+}
+
+.icon-shopping-cart {
+    top: 2px;
+    height: 18px;
+    width: 18px;
+    background-image: url('./empty-shopping-cart.svg');
+}
+
+@media screen and (max-width: 860px) {
+    .icon-delete {
+        margin: 2px 5px 2px 5px;
+    }
+}

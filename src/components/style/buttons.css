@@ -1,0 +1,28 @@
+.button {
+    cursor: pointer;
+    padding: 7px;
+    background-color: #ffffff;
+    border: 1px solid #e3e4e8;
+    color: rgb(160, 160, 160);
+    transition: border 0.3s, background-color 0.3s;
+}
+
+.button--delete {
+    border-color: rgb(255, 130, 130);
+    background-color: rgb(255, 115, 115);
+    color: #ffffff;
+}
+
+.button--delete:hover {
+    border-color: rgb(255, 80, 80);
+    background-color: rgb(255, 65, 65);
+}
+
+@media screen and (max-width: 860px) {
+    .button {
+        padding: 5px;
+    }
+    .button__text {
+        display: none;
+    }
+}

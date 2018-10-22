@@ -1,0 +1,49 @@
+.cartline {
+    background-color: #ffffff;
+    border: 1px solid #e3e4e8;
+}
+
+.cartline:nth-child(2n) {
+    background-color: #F5F7FA;
+}
+
+.cartline__cell {
+    padding: 8px 5px;
+    vertical-align: top;
+}
+
+.cartline__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cartline__quantity-input {
+    padding: 5px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.cartline__price-value {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 670px) {
+    .cartline__title {
+        width: 38%;
+    }
+    .cartline__quantity-input {
+        width: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .cartline__quantity-units {
+        font-size: 12px;
+    }
+    .cartline__price-units {
+        font-size: 12px;
+        display: block;
+    }
+}
+
